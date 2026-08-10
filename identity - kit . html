@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identity Kit | Norhan Ghazy</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            background-color: #F9FAFB;
+            color: #111827;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2563EB;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: white;
+        }
+
+        h1, h2 {
+            font-family: "Times New Roman", serif;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        .item {
+            margin: 25px 0;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .accent {
+            color: #14B8A6;
+            font-weight: bold;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            color: #2563EB;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2563EB;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Identity Kit</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills & Tools</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+
+    <h2>Visual Identity Overview</h2>
+
+    <p>
+        I created a simple and professional visual identity for my portfolio.
+        The design keeps the focus on my work and maintains a consistent style
+        across the website.
+    </p>
+
+    <div class="item">
+        <h2>Typography</h2>
+
+        <p>
+            <strong>Heading Font:</strong> Times New Roman Bold
+        </p>
+
+        <p>
+            <strong>Body Font:</strong> Times New Roman Regular
+        </p>
+    </div>
+
+    <div class="item">
+        <h2>Color Palette</h2>
+
+        <p><strong>Primary:</strong> #2563EB</p>
+        <p><strong>Text:</strong> #111827</p>
+        <p><strong>Background:</strong> #F9FAFB</p>
+        <p><strong>Accent:</strong> <span class="accent">#14B8A6</span></p>
+    </div>
+
+    <div class="item">
+        <h2>Logo / Favicon</h2>
+
+        <div class="logo">NG</div>
+
+        <p>Norhan Ghazy</p>
+    </div>
+
+    <div class="item">
+        <h2>Style Note</h2>
+
+        <p>
+            The overall mood is clean, simple, and professional.
+            The design keeps the focus on my work.
+        </p>
+    </div>
+
+    <div class="item">
+        <h2>What I Learned</h2>
+
+        <p>
+            Creating a consistent identity helps make the portfolio easier
+            to recognize and keeps the design organized across different pages.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Norhan Ghazy</p>
+</footer>
+
+</body>
+</html>
