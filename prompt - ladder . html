@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Prompt Ladder | Norhan Ghazy</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f7f7f7;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: white;
+        }
+
+        .step {
+            margin: 25px 0;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>The Prompt Ladder</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills & Tools</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+
+    <h2>Project Overview</h2>
+
+    <p>
+        This project shows how I improved a prompt step by step,
+        making the instructions clearer and more specific at each stage.
+    </p>
+
+    <div class="step">
+        <h2>Baseline – Weak Prompt</h2>
+
+        <p><strong>Prompt:</strong> Write a LinkedIn post about AI.</p>
+
+        <p>
+            The result was general. I needed a clearer goal and a more specific
+            direction.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Version 1 – Clear Goal</h2>
+
+        <p>
+            I changed the prompt to explain how AI helps students learn
+            more effectively.
+        </p>
+
+        <p>
+            The response became more focused on education, but it was still
+            too general.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Version 2 – Audience</h2>
+
+        <p>
+            I specified university students as the audience.
+        </p>
+
+        <p>
+            The examples became more relevant to students, but the prompt
+            still lacked personal context.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Version 3 – Context</h2>
+
+        <p>
+            I added my experience in the FlyRank AI Fluency Internship.
+        </p>
+
+        <p>
+            This made the post more personal and believable, although it
+            became a little too long.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Version 4 – Output Format</h2>
+
+        <p>
+            I asked for three short paragraphs.
+        </p>
+
+        <p>
+            The result became easier to read, but the tone was still
+            somewhat formal.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Version 5 – Quality Criteria</h2>
+
+        <p>
+            I added a word limit and asked for an engaging tone.
+        </p>
+
+        <p>
+            The final result became shorter and more engaging.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Final Reusable Prompt</h2>
+
+        <p>
+            Write a LinkedIn post explaining how AI helps university students
+            learn more effectively. Base the post on an AI Fluency Internship
+            experience. Use three short paragraphs, keep it under 150 words,
+            use a natural and engaging tone, and end with a question that
+            encourages discussion.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Lessons Learned</h2>
+
+        <p>
+            I learned that a strong prompt can be built gradually by adding
+            a clear goal, audience, context, output format, and quality criteria.
+        </p>
+    </div>
+
+</section>
+<footer>
+    <p>© 2026 Norhan Ghazy</p>
+</footer>
+
+</body>
+</html>
