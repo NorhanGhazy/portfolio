@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompting Fundamentals | Norhan Ghazy</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f7f7f7;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: white;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        .step {
+            margin: 25px 0;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Prompting Fundamentals</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills & Tools</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+
+    <h2>Project Overview</h2>
+
+    <p>
+        This project explored how different prompting techniques can improve
+        AI responses when working with real tasks.
+    </p>
+
+    <div class="step">
+        <h2>Version 1 – Naive Prompt</h2>
+
+        <p>
+            I started with a simple request to summarize lecture notes.
+            The result was accurate, but the prompt did not provide much context
+            or detailed instructions.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Version 2 – Role Assignment</h2>
+
+        <p>
+            I assigned the AI the role of an experienced programming instructor
+            and asked for a simple explanation suitable for a first-year student.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Version 3 – Context and Motivation</h2>
+
+        <p>
+            I added information about my level, the topic, and why I needed
+            the summary. This made the response more focused on the important
+            concepts.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Version 4 – Few-Shot Examples</h2>
+
+        <p>
+            I provided an example showing the style of answer I wanted.
+            This helped the AI produce a more consistent and concise response.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Version 5 – Output Structure</h2>
+
+        <p>
+            I specified a clear structure including a title, summary,
+            key concepts, comparison, and conclusion.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Version 6 – Step Decomposition</h2>
+
+        <p>
+            I broke the task into clear steps so the AI could organize the
+            response more completely and reduce the chance of missing important
+            information.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Results & Lessons Learned</h2>
+
+        <p>
+            The project showed me that adding role, context, examples,
+            structure, and clear steps can make AI responses more useful
+            and easier to understand.
+        </p>
+    </div>
+
+    <div class="step">
+        <h2>Cross-Model Comparison</h2>
+
+        <p>
+            In my comparison, ChatGPT produced a clear and concise response,
+            while Claude or Gemini provided slightly more detailed explanations.
+            Both models completed the task successfully.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Norhan Ghazy</p>
+</footer>
+
+</body>
+</html>
